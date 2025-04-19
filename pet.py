@@ -13,13 +13,13 @@ class Pet:
 
     def sleep(self):
         self.__energy = max (0, min(self.__energy + 5, 10))
-        print(f"{self.__name} is playing...💤")
+        print(f"{self.__name} is sleeping...💤")
         
     def play(self):
         self.__energy = max (0, min(self.__energy - 2, 10))
         self.happiness = max (0, min(self.__happiness + 2, 10))
         self.__hunger = max (0, min(self.__hunger + 1, 10))
-        print(f"{self.__name} is sleeping...🎏")
+        print(f"{self.__name} is playing...🎾")
 
     def get_status(self):
         print(f"{self.__name}'s Current Status: ")
@@ -29,6 +29,7 @@ class Pet:
     
     def train(self, trick):
         self.tricks.append(trick)
+        print(f"{self.__name} 🐾 learned a new trick: ✨ {trick}!")
         
     def show_tricks(self):
         print("Tricks:", self.tricks)
