@@ -16,3 +16,13 @@ This project is a Build Your Own Pet where users can create a pet, let it eat, p
 
 ## Here is How The Output Looks Like:
 ![Build Your Own Pet](output-screenshot.png)
+
+---
+## Contributors
+
+The project was made for the PLP Group Assignment
+#### Group 77 Members That Contributed: ####
+
+**Sharon Nanayaa Nokutso Jack**
+- **Email**: sharonanatso@gmail.com
+- **Github**: @nokutso
