@@ -36,6 +36,7 @@ class Pet:
         if self.__energy <= 4:
             print(f"{self.__name} is Tired. So:")
             self.sleep()
+            print(" ")
         if self.__happiness <= 4:
             print(f"{self.__name} is Unhappy. So:")
             for playing in range(1, 4):
@@ -43,10 +44,12 @@ class Pet:
                 playing += 1
             self.eat()
             self.sleep()
+            print(" ")
         if self.__hunger <= 4:
             print(f"{self.__name} is Hungry. So:")
             for eating in range(1, 4):
                 self.eat()
+            print(" ")
 
     #ADDED A PRINT FUNCTION TO PRINT WHATS RIGHT, DEPENDING ON WHAT THE STATUS IS
     def print_Status (self):
