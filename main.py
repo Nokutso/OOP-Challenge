@@ -21,6 +21,7 @@ myPet = p.Pet(petName, hunger, energy, happiness)
 
 #2. GIVING IT TRICKS
 print("Teach your pet some tricks! Type 'done' when you're finished ")
+print(" ")
 
 while True:
     trick = input("Enter a trick: ")
@@ -36,3 +37,4 @@ myPet.sleep()
 print(" ")
 myPet.get_status()
 myPet.show_tricks()
+print(" ")
