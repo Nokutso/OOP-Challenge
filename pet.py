@@ -26,7 +26,23 @@ class Pet:
         print(f"Hunger: {self.__hunger}")
         print(f"Energy: {self.__energy}")
         print(f"Happiness: {self.__happiness}")
-    
+
+    def take_care(self):
+        if self.__energy <= 4:
+            print(f"{self.__name} is Tired. So:")
+            self.sleep()
+        if self.__happiness <= 4:
+            print(f"{self.__name} is Unhappy. So:")
+            for playing in range(1, 4):
+                self.play()
+                playing += 1
+            self.eat()
+            self.sleep()
+        if self.__hunger <= 4:
+            print(f"{self.__name} is Hunger. So:")
+            for eating in range(1, 4):
+                self.eat()
+
     def train(self, trick):
         self.tricks.append(trick)
         print(f"{self.__name} 🐾 learned a new trick: ✨ {trick}!")
