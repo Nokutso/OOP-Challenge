@@ -15,4 +15,4 @@ This project is a Build Your Own Pet where users can create a pet, let it eat, p
 ---
 
 ### Here is How The Output Looks Like:
-![Build Your Own Pet] (output-screenshot.png)
+![Build Your Own Pet](output-screenshot.png)
